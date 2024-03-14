@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caculator.low</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>caculator.low</h1>
+    </header>
+    <div>
+        <img src="1026026.png" class="img0" alt="png">
+        <img src="1026026.png" class="img1" alt="png">
+    </div>
+    <section>
+        <div>
+            <input type="text" id="cacul"class="cacul" >
+        </div>
+        <div class="botoes">
+            <td>
+               <button type="button"value="7" onclick="caractere(this)" >7</button>
+               <button type="button"value="8" onclick="caractere(this)">8</button>
+               <button type="button"value="9" onclick="caractere(this)">9</button>
+               <button class="arit" type="button"value="*" onclick="caractere(this)">x</button> 
+            </td></br>
+            <td>
+                <button type="button"value="4" onclick="caractere(this)">4</button>
+                <button type="button"value="5" onclick="caractere(this)" >5</button>
+                <button type="button"value="6" onclick="caractere(this)">6</button>
+                <button class="arit" type="button"value="-" onclick="caractere(this)" >-</button>
+            </td></br>
+            <td>
+                <button type="button"value="1" onclick="caractere(this)">1</button>
+                <button type="button"value="2" onclick="caractere(this)">2</button>
+                <button type="button"value="3" onclick="caractere(this)" >3</button>
+                <button class="arit" type="button"value="+" onclick="caractere(this)">+</button>
+            </td></br>
+            <td>
+                <button type="button"value="0" onclick="caractere(this)">0</button>
+                <button type="button" onclick="calcular()">=</button>
+                <button type="button"onclick="apagar()">C</button>
+                <button class="arit" type="button"value="/"onclick="caractere(this)">/</button>
+
+            </td>
+        </div>
+        <div>
+        </div>
+    </section>
+    <script src="/javascript/001.js"></script>
+    
+</body>
+</html>
